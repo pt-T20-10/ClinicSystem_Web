@@ -1,0 +1,83 @@
+# =========================
+# GENERAL (Hệ điều hành)
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE & EDITOR (VS Code, Visual Studio)
+# =========================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# =========================
+# BACKEND (.NET / C#)
+# =========================
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.userprefs
+
+# Environment Config (Chứa mật khẩu, connection string)
+appsettings.Development.json
+appsettings.Local.json
+
+# Database migrations (Nếu không muốn lưu script generate)
+*.sql
+
+# Logs
+*.log
+
+# =========================
+# FRONTEND (ReactJS / Vite)
+# =========================
+# Dependencies (Rất nặng, không được push lên git)
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production Build Output (File build ra web)
+dist/
+build/
+
+# Environment Variables (Chứa key API)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite specific
+.vite/
